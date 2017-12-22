@@ -1,0 +1,3 @@
+1.  Server side rotuing means that when a user clicks a link a whole new page is displayed because they are requesting a new page to be displayed from the server-- the whole pages refreshes. With cilent side routing the whole page doesnt refresh- the changes the user sees are simply changes in what is displayed. This is because the routing happens internally.
+2.	Some advantages of using client-side routing is the fact that less data is processed, so it’s faster. 
+4. By using the word exact you can make sure that the component associated with the "/" route is not displayed for every other route. (ex.<Route path="/" component={Home} exact /> ).
